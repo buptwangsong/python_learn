@@ -3,4 +3,5 @@
 
 ## 要点
 1. 数据类型检查可以用内置函数 isinstance()
+   
    `isinstance(x, (int, float))`
