@@ -5,3 +5,7 @@
 1. 数据类型检查可以用内置函数 isinstance()
    
    `isinstance(x, (int, float))`
+   
+2. 判断一个变量是否是None
+ 
+  `a is None`
