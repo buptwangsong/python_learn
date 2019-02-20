@@ -13,3 +13,10 @@
 3. 利用切片复制一个`list`/`tuple`/`string`
    
    `[:]`
+   
+4. 判断一个对象是否是可迭代对象，使用`collection`模块的`Iterable`
+   
+   ```python
+      from collection import Iterable
+      isinstance("abc", Iterable)
+   ```
