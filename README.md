@@ -23,3 +23,13 @@
 5. 将`list`变成索引-元素对，可以使用python内置的`enumerate`
    
    `enumerate([1,2,3,4])`
+   
+6. 凡是可以用`for`循环的对象都是`Iterable`类型
+   
+   `isinstance([],Iterable)`
+   
+   凡是可作用域`next()`函数的对象都是`Iterator`
+   
+   `isinstance({},Iterator)`
+   
+   可以使用`iter()`将函数`iterable`变为`iterable`
