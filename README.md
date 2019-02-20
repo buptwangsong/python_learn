@@ -20,3 +20,6 @@
       from collection import Iterable
       isinstance("abc", Iterable)
    ```
+5. 将`list`变成索引-元素对，可以使用python内置的`enumerate`
+   
+   `enumerate([1,2,3,4])`
