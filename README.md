@@ -33,3 +33,7 @@
    `isinstance({},Iterator)`
    
    可以使用`iter()`将函数`iterable`变为`iterable`
+
+7. `assert n!=0, 'n is zero'`
+   
+   `assert`
