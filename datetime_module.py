@@ -10,7 +10,7 @@ def to_timestamp(dt_str, tz_str):
 	tz = re.match(r'^UTC([+-]\d{1,2}):\d{1,2}$', tz_str).group(1)
 
 	# create timezone
-	tz_utc = timezone(timedelta(hours = int(tz)))
+	tz_utc = timezone(timedelta(hours =int(tz)))
     
     #set timezone
     # the datetime has timezone
